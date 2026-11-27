@@ -2,75 +2,11 @@
 /* Shared corporate layout */
 html{min-height:100%;scrollbar-gutter:stable}body{min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;background:radial-gradient(ellipse at 75% 0%,#201831 0%,#101019 48%);overflow-wrap:break-word}header,footer{flex:none;width:100%}header{padding:20px max(24px,calc((100% - 1200px)/2));background:#171522}main{flex:1 0 auto;width:100%;max-width:1248px;margin:0 auto;padding:0 24px 64px}.bar{min-height:44px}.brand{font-size:20px}.mark{background:#57388a}nav{gap:8px 18px;margin-top:16px}nav a{padding:8px 0;border-bottom:2px solid transparent;color:#d4cce2}nav a[aria-current]{border-color:#c6a1ff;text-decoration:none}nav a:hover{color:white}.hero{padding:56px 0 30px}.hero h1{font-size:clamp(36px,5vw,60px);letter-spacing:-.035em}.content{max-width:none;padding-top:30px}.content>p{max-width:85ch}.notice,article{background:#1c1928;border-color:#40364e;padding:26px}.notice h2,article h2,article h3{margin-top:0}.grid{gap:18px;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr))}.button{background:#624099}.button:hover{background:#7952b4}footer{margin-top:auto;background:#171522;padding:30px 24px;text-align:left}.footer-inner{max-width:1200px;margin:auto;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}.footer-inner strong{color:#fff;font-size:17px}.footer-inner p{margin:4px 0}.footer-inner small{grid-column:1/-1;border-top:1px solid #40354f;padding-top:16px}.footer-links{display:flex;gap:20px;flex-wrap:wrap}.contact-layout{display:grid;grid-template-columns:1.35fr 1fr;gap:22px;margin-bottom:36px}.contact-layout article{padding:clamp(24px,4vw,42px)}.contact-primary{background:linear-gradient(135deg,#29203c,#1c1928)}.contact-content h2{margin-bottom:16px}.muted{color:#bdb4ce;font-size:15px}.skip:focus{z-index:10}@media(max-width:900px){.contact-layout{grid-template-columns:1fr}nav{gap:4px 14px}}@media(max-width:650px){header{padding:14px 20px}main{padding:0 20px 40px}.hero{padding:38px 0 24px}.brand{font-size:16px}.footer-inner{grid-template-columns:1fr}.footer-links{gap:14px}.contact-layout article{padding:24px}}
 
-/* BEGIN GLOBAL FOOTER FIX */
-
-html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    min-height: 100vh !important;
-    min-height: 100dvh !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    display: flex !important;
-    flex-direction: column !important;
-}
-
-body > header {
-    flex: 0 0 auto !important;
-    width: 100%;
-}
-
-body > main {
-    flex: 1 0 auto !important;
-    width: 100%;
-}
-
-body > footer {
-    flex: 0 0 auto !important;
-    margin-top: auto !important;
-    position: static !important;
-    width: 100%;
-    bottom: auto !important;
-}
-
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
-/* END GLOBAL FOOTER FIX */
-
-/* BEGIN PERMANENT FIXED HEADER */
-
-:root {
-    --header-height: 150px;
-}
-
-html {
-    scroll-padding-top: var(--header-height);
-}
-
-body {
-    padding-top: var(--header-height) !important;
-}
-
-header {
-    position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    bottom: auto !important;
-    width: 100% !important;
-    z-index: 99999 !important;
-    margin: 0 !important;
-    background: #181622 !important;
-    opacity: 1 !important;
-    transform: none !important;
-    box-sizing: border-box;
-    isolation: isolate;
-}
-
-/* END PERMANENT FIXED HEADER */
+/* Shared viewport layout — V3 */
+html { height: auto; min-height: 100%; overflow: visible; scroll-padding-top: calc(var(--header-height, 150px) + 12px); }
+body { min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; margin: 0; overflow: visible; }
+body > .site-header { position: sticky; top: 0; z-index: 1000; flex: 0 0 auto; background: #171522; width: 100%; }
+body > .site-main { flex: 1 0 auto; margin: 0 auto; width: 100%; }
+body > .site-footer { flex: 0 0 auto; margin-top: auto; width: 100%; position: static; }
+.skip:focus { position: fixed; z-index: 1100; }
+@media(max-width:650px) { .site-header nav { max-height: 55vh; overflow-y: auto; } }

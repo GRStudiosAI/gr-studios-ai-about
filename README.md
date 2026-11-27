@@ -19,3 +19,6 @@ Local relative links and archive contents checked. Browser rendering and live de
 
 ## Clean URLs and layout
 All HTML files remain in the root. Navigation uses extensionless GitHub Pages URLs; verify direct access and refresh after deployment. Local file:// previews may not resolve extensionless links. The shared flex layout keeps the footer at the bottom on short pages and after content on long pages. Contact uses the public GitHub organization; no unverified email or nonfunctional form is included.
+
+## V3 layout
+All nine pages use direct body-level header, main and footer elements. The header is sticky and the footer uses a flex layout. Versioned asset URLs refresh cached CSS and JS.
