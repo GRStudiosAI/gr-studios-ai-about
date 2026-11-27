@@ -2,8 +2,6 @@
 
 ## GR Studios AI LLC
 
-**Gotham Repacks Studios Above Integrity LLC**
-
 *Where Imagination Meets Intelligence.*
 
 ---
@@ -1377,8 +1375,6 @@ Our support procedures are intended to strengthen the reliability, usability, se
 ---
 
 ## GR Studios AI LLC
-
-**Gotham Repacks Studios Above Integrity LLC**
 
 **Where Imagination Meets Intelligence.**
 

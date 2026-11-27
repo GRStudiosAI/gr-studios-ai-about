@@ -2,8 +2,6 @@
 
 ## GR Studios AI LLC
 
-**Gotham Repacks Studios Above Integrity LLC**
-
 *Where Imagination Meets Intelligence.*
 
 ---
@@ -792,8 +790,6 @@ Our communities should support technological advancement and creative developmen
 ---
 
 ## GR Studios AI LLC
-
-**Gotham Repacks Studios Above Integrity LLC**
 
 **Where Imagination Meets Intelligence.**
 

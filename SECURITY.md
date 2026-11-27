@@ -2,8 +2,6 @@
 
 ## GR Studios AI LLC
 
-**Gotham Repacks Studios Above Integrity LLC**
-
 *Where Imagination Meets Intelligence.*
 
 ---
@@ -603,8 +601,6 @@ Public community channels must not be used to disclose confidential security vul
 ---
 
 ## GR Studios AI LLC
-
-**Gotham Repacks Studios Above Integrity LLC**
 
 *Where Imagination Meets Intelligence.*
 

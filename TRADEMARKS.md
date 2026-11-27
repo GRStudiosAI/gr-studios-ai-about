@@ -2,8 +2,6 @@
 
 ## GR Studios AI LLC
 
-**Gotham Repacks Studios Above Integrity LLC**
-
 *Where Imagination Meets Intelligence.*
 
 ---
@@ -1170,8 +1168,6 @@ The protection of company-owned branding must remain consistent with legitimate 
 ---
 
 ## GR Studios AI LLC
-
-**Gotham Repacks Studios Above Integrity LLC**
 
 **Where Imagination Meets Intelligence.**
 

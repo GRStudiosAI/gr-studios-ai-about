@@ -2,8 +2,6 @@
 
 ## GR Studios AI LLC
 
-**Gotham Repacks Studios Above Integrity LLC**
-
 *Where Imagination Meets Intelligence.*
 
 ---
@@ -1099,8 +1097,6 @@ Responsible collaboration requires accountability from contributors, maintainers
 ---
 
 ## GR Studios AI LLC
-
-**Gotham Repacks Studios Above Integrity LLC**
 
 **Where Imagination Meets Intelligence.**
 
