@@ -22,3 +22,9 @@ All HTML files remain in the root. Navigation uses extensionless GitHub Pages UR
 
 ## V3 layout
 All nine pages use direct body-level header, main and footer elements. The header is sticky and the footer uses a flex layout. Versioned asset URLs refresh cached CSS and JS.
+
+## V4
+Adds services, hiring, payments, maintenance and proposed service terms. Prices are starting rates in USD. The GR favicon is temporary text branding. No checkout or private inquiry channel is configured; add verified authorized business contact and payment details before accepting payments. Review terms before use. Extensionless links require hosting support.
+
+## V5 navigation
+Compact sticky header: 64px desktop, 56px mobile. Company and Services dropdowns retain all navigation links. Mobile menu overlays content without increasing header height.
