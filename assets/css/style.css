@@ -42,3 +42,21 @@ body > footer {
 }
 
 /* END GLOBAL FOOTER FIX */
+
+/* BEGIN GLOBAL STICKY HEADER FIX */
+
+html {
+    scroll-padding-top: 150px;
+}
+
+body > header {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 9999 !important;
+    width: 100%;
+    flex-shrink: 0 !important;
+    background-color: #181622;
+    isolation: isolate;
+}
+
+/* END GLOBAL STICKY HEADER FIX */
