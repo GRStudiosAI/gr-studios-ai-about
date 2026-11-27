@@ -28,3 +28,7 @@ Adds services, hiring, payments, maintenance and proposed service terms. Prices 
 
 ## V5 navigation
 Compact sticky header: 64px desktop, 56px mobile. Company and Services dropdowns retain all navigation links. Mobile menu overlays content without increasing header height.
+
+
+## V6 repository setup
+See [DISCUSSIONS-SETUP.md](DISCUSSIONS-SETUP.md), LICENSE and the proposed legal pages. Review policies before publishing. No domain changes are included.

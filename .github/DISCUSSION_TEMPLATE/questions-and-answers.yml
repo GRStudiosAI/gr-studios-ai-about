@@ -1,0 +1,25 @@
+body:
+- type: markdown
+  attributes:
+    value: 'Public channel: do not include secrets, payment details or private information.'
+- type: textarea
+  id: field0
+  attributes:
+    label: Topic or question
+    description: Provide non-sensitive details.
+  validations:
+    required: true
+- type: textarea
+  id: field1
+  attributes:
+    label: Relevant context
+    description: Provide non-sensitive details.
+  validations:
+    required: false
+- type: textarea
+  id: field2
+  attributes:
+    label: Desired outcome
+    description: Provide non-sensitive details.
+  validations:
+    required: false

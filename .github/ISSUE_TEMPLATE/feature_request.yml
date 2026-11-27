@@ -1,0 +1,20 @@
+body:
+- type: markdown
+  attributes:
+    value: 'Public channel: do not include secrets, payment details or private information.'
+- type: textarea
+  id: field0
+  attributes:
+    label: Describe the proposal
+    description: Provide non-sensitive details.
+  validations:
+    required: true
+- type: textarea
+  id: field1
+  attributes:
+    label: Why it helps
+    description: Provide non-sensitive details.
+  validations:
+    required: false
+name: Feature request
+description: Feature request

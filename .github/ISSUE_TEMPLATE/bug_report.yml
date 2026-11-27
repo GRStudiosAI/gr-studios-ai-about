@@ -1,0 +1,34 @@
+body:
+- type: markdown
+  attributes:
+    value: 'Public channel: do not include secrets, payment details or private information.'
+- type: textarea
+  id: field0
+  attributes:
+    label: Describe the bug
+    description: Provide non-sensitive details.
+  validations:
+    required: true
+- type: textarea
+  id: field1
+  attributes:
+    label: Steps to reproduce
+    description: Provide non-sensitive details.
+  validations:
+    required: false
+- type: textarea
+  id: field2
+  attributes:
+    label: Expected behavior
+    description: Provide non-sensitive details.
+  validations:
+    required: false
+- type: textarea
+  id: field3
+  attributes:
+    label: Browser and device
+    description: Provide non-sensitive details.
+  validations:
+    required: false
+name: Website bug
+description: Website bug

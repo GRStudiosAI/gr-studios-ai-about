@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+- name: Community discussions
+  url: https://github.com/GRStudiosAI/gr-studios-ai-about/discussions
+  about: Public questions and suggestions
